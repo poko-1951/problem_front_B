@@ -15,8 +15,8 @@
     </form>
     <ul>
       <li v-for="(todo, index) in todos">
-        <button v-on:click="deleteItem(index)">X</button>
-        <span v-bind:class="{ done: todo.isDone }">{{ todo.item }}</span>
+        <button id="delete_button" v-on:click="deleteItem(index)">X</button>
+        <span id="" v-bind:class="{ done: todo.isDone }">{{ todo.item }}</span>
       </li>
     </ul>
   </div>

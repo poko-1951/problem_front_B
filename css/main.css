@@ -7,3 +7,31 @@
 #app ul {
   list-style: none;
 }
+
+#app input {
+  width: 236px;
+  height: 28px;
+  padding: 0px 5px;
+  margin-right: 5px;
+  border-radius: 0px;
+  border-width: 1px;
+  border-color: navy;
+}
+
+#app button {
+  width: 45px;
+  height: 30px;
+  padding: 0px auto;
+  background-color: navy;
+  color: white;
+  border: none;
+}
+
+#app #delete_button {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  background-color: navy;
+  color: white;
+  border: none;
+}
