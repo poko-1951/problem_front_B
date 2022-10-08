@@ -13,10 +13,10 @@
       <input type="text" v-model="newItem" />
       <button v-on:click="addItem">Add</button>
     </form>
-    <ul>
+    <ul id="todo_list">
       <li v-for="(todo, index) in todos">
-        <button id="delete_button" v-on:click="deleteItem(index)">X</button>
-        <span id="" v-bind:class="{ done: todo.isDone }">{{ todo.item }}</span>
+        <button class="delete_button" v-on:click="deleteItem(index)">X</button>
+        <div class="todo_item">{{ todo.item }}</div>
       </li>
     </ul>
   </div>
